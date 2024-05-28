@@ -437,7 +437,7 @@ class Preferences {
 
   /// See list of possible values here below.
   @JsonKey(name: 'proxy_type')
-  final ProxyType? proxyType;
+  final dynamic proxyType;
 
   /// Proxy IP address or domain name.
   @JsonKey(name: 'proxy_ip')
